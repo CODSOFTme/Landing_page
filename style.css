@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.topbar {
+  background: #f0487c;
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+
+.consult-btn {
+  background: white;
+  color: #f0487c;
+  border: none;
+  padding: 5px 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 0 5px gray;
+}
+
+.navbar .logo {
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.buy-btn {
+  background: orange;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+}
+
+.hero {
+  background: url('banner.jpg') no-repeat center center/cover;
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero button {
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  background: #f0487c;
+  color: white;
+}
+
+.hero .outline {
+  background: transparent;
+  border: 2px solid white;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background: linear-gradient(to right, #ffa751, #ff5e62);
+  color: white;
+}
+
+.feature-box {
+  width: 30%;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.about {
+  display: flex;
+  padding: 40px;
+}
+
+.about-text {
+  width: 60%;
+}
+
+.about-img {
+  width: 40%;
+  background: url('person.jpg') no-repeat center center/contain;
+  height: 250px;
+}
+
+.services {
+  text-align: center;
+  padding: 40px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: #eee;
+  border-radius: 10px;
+  width: 200px;
+}

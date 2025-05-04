@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Digital Agency</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="contact-info">
+      <span>+123-456-7890</span> |
+      <span>demo@landing.com</span>
+    </div>
+    <button class="consult-btn">Request a Consult</button>
+  </header>
+
+  <nav class="navbar">
+    <div class="logo">LANDING PAGE</div>
+    <ul>
+      <li>Home</li>
+      <li>Services</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+    <button class="buy-btn">Buy Now</button>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Creative Digital Agency</h1>
+      <p>Your vision, our creation. Let’s make it real together.</p>
+      <button>Read More</button>
+      <button class="outline">Request a Consult</button>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature-box">Launch Business</div>
+    <div class="feature-box">Online Support</div>
+    <div class="feature-box">Time Management</div>
+  </section>
+
+  <section class="about">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>15 years, we are passionate about achieving better results for our clients.</p>
+      <button>Read More</button>
+    </div>
+    <div class="about-img"></div>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">User Experience</div>
+      <div class="card">Creative Design</div>
+      <div class="card">Retina Ready</div>
+    </div>
+  </section>
+</body>
+</html>
